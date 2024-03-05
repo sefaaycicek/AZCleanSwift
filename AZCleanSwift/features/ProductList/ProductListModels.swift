@@ -34,7 +34,7 @@ enum ProductList {
             case .empty:
                 return "empty_cell_identifier"
             case .product:
-                return "product_cell_identifier"
+                return "FlightCellTableViewCell"
             }
         }
     }
