@@ -36,6 +36,9 @@
 		DC0E5FED2B9713620045EDB4 /* FlightCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E5FEB2B9713620045EDB4 /* FlightCellTableViewCell.swift */; };
 		DC0E5FEE2B9713620045EDB4 /* FlightCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC0E5FEC2B9713620045EDB4 /* FlightCellTableViewCell.xib */; };
 		DC0E5FF32B9713AB0045EDB4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DC0E5FF22B9713AB0045EDB4 /* Kingfisher */; };
+		DC0E5FF52B971DC30045EDB4 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E5FF42B971DC30045EDB4 /* ProductListRouter.swift */; };
+		DC0E5FF82B971E600045EDB4 /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E5FF62B971E600045EDB4 /* ProductDetailController.swift */; };
+		DC0E5FF92B971E600045EDB4 /* ProductDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC0E5FF72B971E600045EDB4 /* ProductDetailController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		DC0E5FE82B9711330045EDB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DC0E5FEB2B9713620045EDB4 /* FlightCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCellTableViewCell.swift; sourceTree = "<group>"; };
 		DC0E5FEC2B9713620045EDB4 /* FlightCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightCellTableViewCell.xib; sourceTree = "<group>"; };
+		DC0E5FF42B971DC30045EDB4 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		DC0E5FF62B971E600045EDB4 /* ProductDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		DC0E5FF72B971E600045EDB4 /* ProductDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 				DC0E5F912B95C2340045EDB4 /* ProductListModels.swift */,
 				DC0E5FD82B9704840045EDB4 /* ProductListViewController.swift */,
 				DC0E5FD92B9704840045EDB4 /* ProductListViewController.xib */,
+				DC0E5FF42B971DC30045EDB4 /* ProductListRouter.swift */,
 			);
 			path = ProductList;
 			sourceTree = "<group>";
@@ -183,6 +190,8 @@
 		DC0E5FC92B9702CC0045EDB4 /* ProductDetail */ = {
 			isa = PBXGroup;
 			children = (
+				DC0E5FF62B971E600045EDB4 /* ProductDetailController.swift */,
+				DC0E5FF72B971E600045EDB4 /* ProductDetailController.xib */,
 			);
 			path = ProductDetail;
 			sourceTree = "<group>";
@@ -301,6 +310,7 @@
 				DC0E5FE62B970FE60045EDB4 /* SplashViewController.xib in Resources */,
 				DC0E5FDF2B9705680045EDB4 /* FavoriteViewController.xib in Resources */,
 				DC0E5F5A2B95B3A50045EDB4 /* Assets.xcassets in Resources */,
+				DC0E5FF92B971E600045EDB4 /* ProductDetailController.xib in Resources */,
 				DC0E5FD72B9704690045EDB4 /* BasketViewController.xib in Resources */,
 				DC0E5FEE2B9713620045EDB4 /* FlightCellTableViewCell.xib in Resources */,
 				DC0E5F582B95B3A40045EDB4 /* Main.storyboard in Resources */,
@@ -318,6 +328,7 @@
 				DC0E5F812B95BDAE0045EDB4 /* ProductListPresenter.swift in Sources */,
 				DC0E5FED2B9713620045EDB4 /* FlightCellTableViewCell.swift in Sources */,
 				DC0E5FD62B9704690045EDB4 /* BasketViewController.swift in Sources */,
+				DC0E5FF52B971DC30045EDB4 /* ProductListRouter.swift in Sources */,
 				DC0E5F922B95C2340045EDB4 /* ProductListModels.swift in Sources */,
 				DC0E5FE42B970FCE0045EDB4 /* SplashViewController.swift in Sources */,
 				DC0E5F6B2B95B4260045EDB4 /* NetworkUtil.swift in Sources */,
@@ -332,6 +343,7 @@
 				DC0E5F512B95B3A40045EDB4 /* AppDelegate.swift in Sources */,
 				DC0E5F7D2B95BD3C0045EDB4 /* ProductApiWorker.swift in Sources */,
 				DC0E5F832B95BDC30045EDB4 /* ProductListInteractor.swift in Sources */,
+				DC0E5FF82B971E600045EDB4 /* ProductDetailController.swift in Sources */,
 				DC0E5F532B95B3A40045EDB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

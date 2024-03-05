@@ -72,3 +72,10 @@ extension ProductListViewController : UITableViewDataSource {
     
     
 }
+
+
+extension ProductListViewController : UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+}

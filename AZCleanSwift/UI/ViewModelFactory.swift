@@ -47,4 +47,9 @@ class ViewControllerFactory {
         let splash = SplashViewController(nibName: "SplashViewController", bundle: Bundle.main)
         return splash
     }
+    
+    func makeProductDetail(flightDetailResponse : FlightDataResponse, selectedIndex : Int) -> UIViewController {
+        let splash = SplashViewController(nibName: "SplashViewController", bundle: Bundle.main)
+        return splash
+    }
 }
